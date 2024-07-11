@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    /*background-color: green;*/
+    margin: 0;
+    font-family: sans-serif;
+}
+#principale {
+    /*border: solid 5px red;*/
+    max-width: 400px;
+    margin: 30px auto;
+    /*text-align: center;*/
+}
+.Logo{
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+}
+
+#modulo {
+    border: 1px solid grey;
+    min-height: 300px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 20px;
+}
+h1 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+#modulo input{
+    width: 100%;
+    font-size: 1em;
+    padding: 8px;
+    border: solid 2px gray;
+}
+#modulo label{
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    /*background-color: yellow;*/
+    display: block;
+
+}
+#modulo ul {
+    list-style: none;
+    padding: 0;
+}
+#modulo ul li {
+    margin-top: 15px;
+    /*border: solid 1px red;*/
+}
+#modulo button {
+    font-size: 1em;
+    width: 100%;
+    background-color: #f0c14b;
+    border: transparent;
+    padding: 10px;
+}
+#modulo button:hover {
+    background-color: #f0c14b;
+
+}
+#box ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+#box ul li {
+    float: left;
+    padding: 0 30px;
+}
